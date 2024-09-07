@@ -2,21 +2,22 @@
 #   "Aggies do not lie, cheat, or steal, or tolerate those who do."
 #   "I have not given or received any unauthorized aid on this assignment."
 #
-# Names:        NAME OF TEAM MEMBER 1
+# Names:        Andrew Rigler
 #               NAME OF TEAM MEMBER 2
 #               NAME OF TEAM MEMBER 3
-#               NAME OF TEAM MEMBER 4
 # Section:      5
-# Assignment:   THE ASSIGNMENT NUMBER (e.g. Lab 1b-2)
+# Assignment:   Lab 4 #1 Make Change
 # Date:         DAY MONTH YEAR
 #
 
 paid = float(input("How much did you pay? "))
 cost = float(input("How much did it cost? "))
 
+#Change due is in cents to avoid floating point rounding errors when multiplyting and subtracting
 change_change_due_cents = int(paid*100) - int(cost*100)
 
 print(f"You received ${change_change_due_cents/100:.2f} in change. That is...")
+
 
 quarters = int((change_change_due_cents / 100) // 0.25)
 change_change_due_cents -= quarters * 25
