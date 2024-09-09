@@ -4,7 +4,7 @@
 #
 # Names:        NAME OF TEAM MEMBER 1
 #               NAME OF TEAM MEMBER 2
-#               NAME OF TEAM MEMBER 3
+#               Ethan Levy
 #               NAME OF TEAM MEMBER 4
 # Section:      5
 # Assignment:   THE ASSIGNMENT NUMBER (e.g. Lab 1b-2)
